@@ -1,0 +1,174 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.named_route{
+    color: red;
+    text-align: center;
+}
+
+.named_route h1{
+    text-transform: capitalize;
+
+}
+
+.error{
+    color: red;
+}
+.students{
+    margin-top: 5rem;
+}
+
+.students table{
+    margin: 0 auto;
+}
+
+.students h1{
+text-align: center
+}
+
+.students table,th,td{
+    text-align: center;
+    border: 1px solid red;
+}
+
+.flash{
+    position: fixed;
+    top: 0;
+   
+    left: 0;
+    padding: 20px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    color: white;
+    font-family: helvetica;
+    font-size: 1rem;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.cancel{
+    background-color: red;
+    color: white;
+    border: none;
+    font: 4rem;
+    margin-left: 2rem;
+}
+
+.page{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.error{
+    margin-top: 20px;
+    color: red;
+}
+.user{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.user h2{
+    text-transform: capitalize;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding-block: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+
+    
+}
+
+.nav button{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.footer{
+    background-color: blue;
+    color: white;
+    padding-block: 2rem;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.center{
+    padding-top: 9rem;
+    height: 455px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center h1{
+    color: blue;
+    margin-block: 2rem;
+}
+.center p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.signup{
+    text-decoration: none;
+    
+}
+
+#signup{
+    padding: 15px 40px 15px 40px;
+    margin-top: 3rem;
+    border: 3px solid blue;
+    border-radius: 4px;
+    color: blue;
+    font-family: helvetica;
+    font-size: 1.2rem;
+}
+
+#signup:hover{
+    background-color: blue;
+    border: 3px solid white;
+    color: white;
+
+}
+
+.user2{
+    color: black;
+    text-transform: capitalize;
+}
